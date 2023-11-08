@@ -1,0 +1,24 @@
+.board {
+    border-collapse: collapse;
+    background-color: #333;
+    margin-left: 45px;
+    color: green;
+}
+
+.board td {
+
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.board td.active {
+    background-color: yellow;
+}
+.cell-red {
+    color: red; /* Cambia el color del texto a rojo */
+}
+.cell-blue{
+    color: cornflowerblue;
+}
